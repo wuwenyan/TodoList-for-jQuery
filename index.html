@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>todos</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css"><!-- 把浏览器默认样式重置 -->
+    <link rel="stylesheet" type="text/css" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/jquery-confirm/dist/jquery-confirm.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="icon" href="image/favicon.ico">
+</head>
+<body>
+
+	<div class="container">
+		<h1>todos</h1>
+		<form class="add-task">
+			<input type="text" 
+				   name="content" 
+				   placeholder="What needs to be done?"
+				   autofocus
+				   autocomplete="off">
+		</form>
+		<div class="task-list">
+		</div>
+		<div class="task-detail-mask"></div>
+		<div class="task-detail">
+		</div>
+	</div>
+	<video class="alerter" src="alert.mp3"></video>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="node_modules/jquery-confirm/dist/jquery-confirm.min.js"></script>
+<script type="text/javascript" src="node_modules/storejs/dist/store.min.js"></script>
+<script type="text/javascript" src="js/base.js"></script>	
+</body>
+</html>
